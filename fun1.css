@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+
+  background-image: linear-gradient(to right, #434343 0%, rgb(15, 15, 15) 100%);
+  padding-top: 3%;
+}
+#btn {
+  background-color: antiquewhite;
+  font-weight: bold;
+  margin-left: 480px;
+  cursor: pointer;
+  color: goldenrod;
+  border-radius: 40%;
+  width: 100px;
+  height: 35px;
+}
+
+#btn1 {
+  background-color: rebeccapurple;
+  font-weight: bold;
+  margin-left: 480px;
+  cursor: pointer;
+  color: goldenrod;
+  border-radius: 40%;
+  width: 100px;
+  height: 35px;
+}
+.mainBg {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75vw;
+  height: 90vh;
+  background-image: url(Img_1.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  color: blue;
+  letter-spacing: 2px;
+}
+ul li {
+  list-style: none;
+  text-align: center;
+  color: white;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+h4 {
+  color: orange;
+  text-align: center;
+}
+.hanBg {
+  margin: 10px auto;
+  /* margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 10px;
+     Instead of four , we can just write in one line */
+  width: 75vw;
+  height: 90vh;
+  background-image: url(hanumaBg.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+.treeBg {
+  background-image: url(Img_02.png);
+  background-repeat: repeat-x;
+  /* margin-top: 315px; */
+  margin-top: 415px;
+
+  width: 95%;
+  height: 30vh;
+}
+#img1 {
+  margin-left: 90px;
+  margin-top: 20px;
+  animation: suspension 800ms linear infinite;
+}
+#img2 {
+  margin-top: 79px;
+  margin-left: 45px;
+  width: 118px;
+}
+#green {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: green;
+}
+#red {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+@keyframes suspension {
+  100% {
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: translateY(2px);
+  }
+  0% {
+    transform: translateY(-1px);
+  }
+}

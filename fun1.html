@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moving Car</title>
+    <link rel="stylesheet" href="fun1.css" />
+  </head>
+  <body>
+    <h1>Happy Journey !</h1>
+    <ul>
+      <li>Press "L/l" to on/off the Light.</li>
+      <li>Press below button or "F/f" to Start/Stop the Engine.</li>
+    </ul>
+    <button id="btn">Go / Stop</button> &nbsp &nbsp
+    <button id="green"></button>&nbsp &nbsp<button id="red"></button>
+
+    <div class="mainBg">
+      <div class="treeBg">
+        <marquee id="anime" direction="right" scrollamount="14">
+          <img id="img1" src="Img_06.png" alt="kmik" />
+        </marquee>
+      </div>
+    </div>
+    <h1>Game on your Reaction Time</h1>
+    <h3>Stoping at exact position will increase the score.</h3>
+    <h4>Score = <span id="score">0</span></h4>
+    <h4 id="msg"></h4>
+    <button id="btn1">Start/Stop</button>
+    <div class="hanBg">
+      <marquee id="anime2" direction="right" scrollamount="16">
+        <img id="img2" src="hanuma.png" />
+      </marquee>
+    </div>
+
+    <script src="fun1.js"></script>
+  </body>
+</html>
